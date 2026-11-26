@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Scute Support</title>
+<meta name="description" content="Help for Scute: Work Hours Tracker. Getting started, common questions, and how to reach us.">
+<style>
+:root {
+  color-scheme: light dark;
+  --bg: #ffffff;
+  --text: #1d1d1f;
+  --muted: #6e6e73;
+  --line: #e5e5ea;
+  --panel: #f5f5f7;
+  --accent: #0a66d8;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #000000;
+    --text: #f5f5f7;
+    --muted: #a1a1a6;
+    --line: #2c2c2e;
+    --panel: #1c1c1e;
+    --accent: #4da3ff;
+  }
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font: 17px/1.55 -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+main, footer { max-width: 680px; margin: 0 auto; padding: 0 16px; }
+main { padding-top: 40px; padding-bottom: 24px; }
+a { color: var(--accent); }
+h1 { font-size: 2.1rem; line-height: 1.15; margin: 4px 0 8px; }
+h2 { font-size: 1.25rem; margin: 36px 0 8px; }
+.eyebrow { margin: 0; color: var(--muted); font-weight: 600; }
+.eyebrow a { color: inherit; text-decoration: none; }
+.updated { margin: 0 0 24px; color: var(--muted); font-size: 0.9rem; }
+.lead { font-size: 1.15rem; }
+ul, ol { padding-left: 1.25em; }
+li { margin: 6px 0; }
+.contact { background: var(--panel); border-radius: 14px; padding: 4px 20px 8px; margin-top: 24px; }
+.contact h2 { margin-top: 16px; }
+details { border-bottom: 1px solid var(--line); padding: 12px 0; }
+details:first-of-type { border-top: 1px solid var(--line); }
+summary { cursor: pointer; font-weight: 600; }
+details p { margin: 8px 0 4px; }
+footer { border-top: 1px solid var(--line); padding-top: 16px; padding-bottom: 40px; color: var(--muted); font-size: 0.9rem; }
+footer p { margin: 6px 0 0; }
+</style>
+</head>
+<body>
+<main>
+  <p class="eyebrow">Scute: Work Hours Tracker</p>
+  <h1>Support</h1>
+  <p class="lead">Scute tracks your working hours against each contract's weekly cap, and tells you, while you're
+    clocked in, when you'll reach it.</p>
+
+  <div class="contact">
+    <h2>Contact us</h2>
+    <p>The quickest way is <strong>Settings → Email Support</strong> in Scute. It opens an email to us with your Scute
+      version already in it.</p>
+    <p>Or write to <a href="mailto:support@chelonisystems.com?subject=Scute%20support">support@chelonisystems.com</a>.
+      If you can, say which version of Scute you have (it's at the bottom of Scute's Settings) and what you expected to
+      happen.</p>
+  </div>
+
+  <h2>Getting started</h2>
+  <ol>
+    <li><strong>Add your first contract.</strong> The first time you open Scute, enter your client's name, say whether
+      it's a 40-hour week (or enter its weekly cap), and add an hourly rate if you want earnings worked out.</li>
+    <li><strong>Check your regular hours.</strong> Scute starts you on weekdays from 9:00 AM to 5:00 PM, with reminders
+      to clock in and out. Change them in Settings, under your contract.</li>
+    <li><strong>Set your pay week.</strong> If your client's week doesn't start on Monday, change it in Settings, under
+      Pay week.</li>
+    <li><strong>Clock in.</strong> On Log Time, tap Clock In. Scute counts your hours against the cap and shows when to
+      clock out to reach it.</li>
+  </ol>
+
+  <h2>Questions</h2>
+
+  <details>
+    <summary>How do I log time I've already worked?</summary>
+    <p>On Log Time, choose the date, then a start and an end, and tap Log Time. To change an entry later, tap it on
+      the Week tab; to delete it, swipe it to the left.</p>
+  </details>
+
+  <details>
+    <summary>How do I switch between contracts?</summary>
+    <p>Tap the contract's name at the top of Log Time and choose another. Week and Reports have the same menu at the
+      top. Add more contracts, or projects of your own, in Settings.</p>
+  </details>
+
+  <details>
+    <summary>What's the difference between a contract and a project?</summary>
+    <p>A contract is client work with a weekly hour cap and an hourly rate. A project is your own work, tracked without
+      a cap or a rate.</p>
+  </details>
+
+  <details>
+    <summary>My cap or rate changed. How do I update it without changing past weeks?</summary>
+    <p>In Settings, open the contract and change its cap or rate from the pay week it starts in. Weeks before that keep
+      the old cap and rate, so past timesheets and earnings stay right.</p>
+  </details>
+
+  <details>
+    <summary>What happens to hours over my cap?</summary>
+    <p>They're kept and shown as over the cap. Scute never hides or deletes hours. It warns you as you near the cap
+      (at 80%) and when you reach it.</p>
+  </details>
+
+  <details>
+    <summary>I don't see the countdown on my Lock Screen.</summary>
+    <p>The countdown shows only while you're clocked in. Check that Lock Screen countdown is on in Scute's Settings,
+      and that Live Activities are allowed for Scute in iOS Settings, under Scute.</p>
+  </details>
+
+  <details>
+    <summary>I'm not getting reminders.</summary>
+    <p>Check that notifications are allowed for Scute in iOS Settings, under Notifications, and that the contract's
+      regular hours and reminders are on in Scute's Settings.</p>
+  </details>
+
+  <details>
+    <summary>I forgot to clock out.</summary>
+    <p>If a timer runs longer than you'd expect (10 hours unless you change it in Settings), Scute reminds you. When
+      you clock out after that, Scute lets you set the real end time, so the hours you didn't work aren't
+      recorded.</p>
+  </details>
+
+  <details>
+    <summary>How do I send a timesheet to my client?</summary>
+    <p>On the Week tab, share the week as a spreadsheet (CSV). On the Reports tab, share any period as a PDF or a
+      spreadsheet. To put your name and contact details at the top of PDFs, add them in Settings, under Your
+      details.</p>
+  </details>
+
+  <details>
+    <summary>Can I use Scute on an iPad or a Mac, or sync between devices?</summary>
+    <p>Not yet. Scute 1.0 is for iPhone, and your hours stay on your iPhone. When you move to a new iPhone, restoring
+      it from a backup brings your Scute data with it.</p>
+  </details>
+
+  <details>
+    <summary>Where is my data, and how do I delete it?</summary>
+    <p>Only on your iPhone: Scute has no account and sends nothing to us. Deleting the app deletes your data. See the
+      <a href="privacy.html">Privacy Policy</a> for the details.</p>
+  </details>
+
+  <h2>Requirements</h2>
+  <p>An iPhone with iOS 27 or later.</p>
+</main>
+<footer>
+  <a href="support.html">Support</a> · <a href="privacy.html">Privacy Policy</a>
+  <p>© 2026 Cheloni Systems</p>
+</footer>
+</body>
+</html>
